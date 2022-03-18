@@ -1,0 +1,107 @@
+#row{
+position: relative;
+text-align: center;
+color: white;
+}
+.centered {
+position: absolute;
+top: 40%;
+bottom: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
+.header {
+    overflow: hidden;
+    background-color: 0;
+    padding: 20px 10px;
+  }
+  
+  
+  /* Style the header links */
+  .header a {
+    color: black;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: transparent;
+    color: rgb(125, 128, 131);
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: rgb(125, 128, 131);
+    color: rgba(255, 255, 255, 0);
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  body .navbar .navbar-toggler{
+      color: rgba(255, 255, 255, 0);
+  }
+  
+  .navbar-title{
+      background-color: rgb(55, 55, 189);
+  }
+  
+  .navbar-title a{
+      color: rgb(255, 255, 255);
+  }
+  
+  .navbar-title a:hover{
+      text-decoration: underline;
+      text-decoration-color: rgb(53, 124, 230);
+      color: rgb(63, 102, 209);
+  }
+  
+  .dropdown-menu{
+      width: auto;
+      min-width: 0%;
+      background-color: rgb(77, 77, 77);
+      border: none;
+  }
+  
+  .nav-item .dropdown-item {
+      background-color: transparent;
+  }
+  
+  .nav-item .dropdown-item:hover{
+      background-color: transparent;
+  }
+  
+  .dropdown-menu .dropdown-item {
+      position: relative;
+  }
+  
+  .nav-link{
+    text-align: center;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+    }
+    .header-right {
+      float: none;
+    }
+  }

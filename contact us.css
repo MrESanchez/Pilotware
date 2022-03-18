@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+h1 {text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bigh1 {
+  font-size: 65px !important;
+}
+
+
+textarea {
+  font-family: Roboto, serif !important;
+  background-color: rgb(201, 200, 200) !important; 
+  color : rgb(0, 0, 0) !important;
+}
+
+
+input {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 40px !important;
+
+}
+
+.container-1 {
+  margin-right: 250px;
+  margin-left: 250px;
+  }
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid;
+  text-align: initial;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.smtextar {
+  height: 20px !important;
+}
+
+
+
+input[type=submit], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid;
+  background-color: rgb(63, 102, 209);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.card {
+  box-shadow: 0px 0px 40px #264682; 
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+body .navbar .navbar-toggler{
+  color: white;
+}
+
+.navbar-title{
+  background-color: rgb(55, 55, 189);
+}
+
+.navbar-title a{
+  color: rgb(255, 255, 255);
+}
+
+.navbar-title a:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(53, 124, 230);
+  color: rgb(63, 102, 209);
+}
+
+.dropdown-menu{
+  width: auto;
+  min-width: 0%;
+  background-color: rgb(77, 77, 77);
+  border: none;
+}
+
+.nav-item .dropdown-item {
+  background-color: transparent;
+}
+
+.nav-item .dropdown-item:hover{
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item {
+  text-align: center;
+  position: relative;
+}
